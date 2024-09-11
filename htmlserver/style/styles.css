@@ -1,0 +1,76 @@
+body {
+    background-color: #f1f3f5; /* Light gray background */
+    padding-top: 20px;
+}
+
+/* CV Section Styles */
+.cv-section {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffffff; /* White background for card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px;
+}
+
+/* Mugshot styling with shadow */
+.mugshot {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Circular shadow */
+}
+
+.cv-details {
+    margin-left: 20px;
+}
+
+.cv-details h2 {
+    margin: 0;
+    font-weight: bold;
+    color: #343a40; /* Dark gray text */
+}
+
+.cv-details p {
+    color: #6c757d; /* Lighter gray for secondary text */
+}
+
+/* Technologies Section Styles */
+.technologies-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.technologies-section h3 {
+    color: #007bff; /* Blue title */
+}
+
+.technology-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 10px;
+    background-color: #f8f9fa; /* Light gray background for images */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for icons */
+}
+
+/* Top Message Styles */
+.header-message {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Custom container padding */
+.container {
+    max-width: 900px;
+}
